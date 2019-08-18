@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
-  name     = "${var.prefix}-resources"
-  location = "${var.location}"
+  name     = "taj-resources"
+  location = "westeurope"
 }
 
 resource "azurerm_virtual_network" "example" {
